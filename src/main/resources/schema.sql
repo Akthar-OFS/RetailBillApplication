@@ -1,3 +1,9 @@
+DROP TABLE IF EXISTS retail_user;
+DROP TABLE IF EXISTS user_type;
+DROP TABLE IF EXISTS discount;
+DROP TABLE IF EXISTS stock_item;
+DROP TABLE IF EXISTS category;
+
 CREATE TABLE discount (
 	discount_id INT PRIMARY KEY,
 	name VARCHAR(250) NOT NULL,
